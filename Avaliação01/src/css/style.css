@@ -1,0 +1,63 @@
+:root{
+    --white-500: #fff;
+    --blue-500: #002664;
+    --red-500: #bb133e;
+}
+.fundo{
+    background-color: var(--white-500);
+}
+.navBar{
+    background-color: var(--blue-500);
+    border-radius: 0 0 13px 13px;
+}
+.hero{
+    padding-top: 4rem;
+}
+.graceImg{
+    height: 87vh;
+
+}
+.name{
+    position: absolute;
+    top: 5.5rem;
+    right: 17%;
+}
+.name .blue{
+    color: var(--blue-500);
+}
+.name .red{
+    color: var(--red-500);
+}
+.name .white{
+    color: var(--white-500);
+}
+.descricao{
+    position: absolute;
+    top: 88%;
+    left: 15.9%;
+
+    color: var(--white-500);
+}
+.title{
+    display: inline;
+    background-color: var(--red-500);
+    color: var(--white-500);
+    padding: 0 24px;
+    border-radius: 10px;
+}
+.blueBox{
+    background-color: var(--blue-500);
+    border-radius: 35px;
+}
+.box,.topico{
+    margin-top: 8rem;
+}
+.curvas{
+    border-radius: ;
+}
+.bordas{
+    border: 5px solid var(--white-500);
+}
+.rodape{
+    background-color: var(--blue-500);
+}
